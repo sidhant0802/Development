@@ -1,0 +1,16 @@
+body{
+ font-family: Arial;
+ text-align: center;
+}
+
+.box{
+ font-size: 40px;
+ margin: 40px;
+ color: green;
+}
+
+.buttons button{
+ padding: 10px;
+ margin: 10px;
+ cursor: pointer;
+}

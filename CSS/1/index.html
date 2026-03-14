@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>CSS Specificity Playground</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+.internal{
+ color: blue;
+}
+</style>
+
+</head>
+
+<body>
+
+<h1>CSS Specificity Playground</h1>
+
+<div class="box internal" id="demo">
+Demo Text
+</div>
+
+<div class="buttons">
+<button onclick="addInline()">Apply Inline CSS</button>
+<button onclick="removeInline()">Remove Inline CSS</button>
+<button onclick="toggleClass()">Toggle Class</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
